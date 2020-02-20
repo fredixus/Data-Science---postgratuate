@@ -1,43 +1,71 @@
 h1{
-    font-family:Times New Roman;
-    font-size: 16px;
-    line-height:1.5;
-    font-weight:bold;
-    color:red!important;
+    font-family:Times New Roman!important;
+    font-size: 32px!important;
+    line-height:1.5!important;
+    font-weight:bold!important;
+    /*color:red!important;*/
 }
 h2{
-    font-family:Times New Roman;
-    font-size: 14px;
-    line-height:1.5;
-    font-weight:bold;
-    color:green;
+    font-family:Times New Roman!important;
+    font-size: 22px!important;
+    line-height:1.5!important;
+    font-weight:bold!important;
+    /*color:green;*/
 }
 h3{
-    font-family:Times New Roman;
-    font-size: 12px;
-    line-height:1.5;
-    font-weight:bold;
-    color:blue;
+    font-family:Times New Roman!important;
+    font-size: 18px!important;
+    line-height:1.5!important;
+    font-weight:bold!important;
+    /*color:blue;*/
 }
 p.text{
-    font-family:Times New Roman;
-    text-indent: 50px;
-    margin: 10px 0 0 0;
-    text-align: justify;
-    font-size: 14px;
-    line-height:1.5;
+    font-family:Times New Roman!important;
+    text-indent: 50px!important;
+    margin: 10px 0 0 0!important;
+    text-align: justify!important;
+    font-size: 14px!important;
+    line-height:1.5!important;
 }
-ol.text{
-    font-family:Times New Roman;
-    margin: 10px 0 0 0;
-    text-align: justify;
-    font-size: 14px;
-    line-height:1.5;
-    padding:0;
+ol.text, ul.text{
+    font-family:Times New Roman!important;
+    margin: 10px 0 0 0!important;
+    text-align: justify!important;
+    font-size: 14px!important;
+    line-height:1.5!important;
+    padding:0!important;
 }
-ol.text li{
-    
+ol.text li, ul.text li{
     margin: 0 0 0 70px;
     line-height:1.5;
     padding:0;
+}
+img.jpeg{
+    border:15px solid #8c1010!important;
+    width:60%!important;
+    margin:0 auto!important;
+    text-align: center!important;
+    display:block!important;
+    padding:1px!important;
+
+}
+span.md{
+    background-image: url('md1.png')!important;
+    width:197px!important;
+    height:197px!important;
+    border:3px solid #8c1010!important;
+    border-radius: 100px;
+    display: block;
+    margin:0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+span.md::after {
+    content: 'Michał Dębosz';
+    display: block;
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 200px;
+    text-align: center;
 }
